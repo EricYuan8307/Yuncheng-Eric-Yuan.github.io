@@ -13,9 +13,9 @@ title                    : "Yuncheng Yuan"
 title_separator          : "-"
 name                     : &name "Yuncheng Yuan"
 description              : &description "Personal academic website of Yuncheng Yuan"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://yuncheng-eric-yuan.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://ericyuan8307.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/Yuncheng-Eric-Yuan.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "EricYuan8307/Yuncheng-Eric-Yuan.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -23,12 +23,12 @@ repository               : "EricYuan8307/Yuncheng-Eric-Yuan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/myphoto.jpg"
+  avatar           : "/images/myphoto.jpg" # Make sure images/myphoto.jpg exists in the repo
   name             : "Yuncheng Yuan"
   pronouns         : # example: "she/her"  
   bio              : "MSCA TeraWireless PhD Researcher at University of Piraeus Research Center"
   location         : "Piraeus, Greece"
-  employer         : University of Piraeus Research Center
+  employer         : "University of Piraeus Research Center"
   uri              : # URL
   email            : "yunchengyuan@ieee.org"
 
