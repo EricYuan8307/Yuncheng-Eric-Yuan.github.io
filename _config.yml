@@ -23,7 +23,7 @@ repository               : "EricYuan8307/Yuncheng-Eric-Yuan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/myphoto.jpg" # Make sure images/myphoto.jpg exists in the repo
+  avatar           : "images/myphoto.jpg" # Make sure images/myphoto.jpg exists in the repo
   name             : "Yuncheng Yuan"
   pronouns         : # example: "she/her"  
   bio              : "MSCA TeraWireless PhD Researcher at University of Piraeus Research Center"
