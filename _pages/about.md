@@ -7,26 +7,22 @@ redirect_from:
   - /about.html
 ---
 
-I am Yuncheng Yuan, a MSCA PhD Researcher at University of Piraeus Research Center, Greece.
+I am Yuncheng (Eric) Yuan, an MSCA TeraWireless PhD Researcher at the University of Piraeus Research Center (UPRC), Greece. My research focuses on rule-based machine learning for fast channel acquisition and prediction in ultra-massive MIMO (U-MIMO) THz systems. As part of the MSCA program, I will also join Nokia Bell Labs, Paris, France, as a PhD Researcher.
 
-<!-- 在这里写你的个人介绍。比如你的研究方向、兴趣爱好、正在做的项目等。 -->
-<!-- 想插入照片的话，把照片放进 images/ 文件夹，然后这样写： -->
-<!-- ![照片描述](/images/your-photo.jpg) -->
+Before that, I received my M.Sc. in Artificial Intelligence & Engineering Systems from Eindhoven University of Technology (TU/e), the Netherlands, where I worked on improving error correcting codes via machine learning and deep learning under the supervision of Prof. Alex Alvarado.
 
 Research Interests
 ======
-<!-- 列出你的研究兴趣，例如： -->
-<!-- - Machine Learning -->
-<!-- - Wireless Communications -->
-Machine Learning
-Wireless Communication
-Near-field Channel Estimation
-
+- Machine Learning
+- Wireless Communications
+- Near-field Channel Estimation
+- Error Correcting Codes
 
 Education
 ======
-- MSc, Eindhoven University of Technology
-<!-- - BSc, 你的本科学校, 年份 -->
+- Ph.D., University of Piraeus, Greece, 2026–2029 (expected)
+- M.Sc. in Artificial Intelligence & Engineering Systems, Eindhoven University of Technology, the Netherlands, 2024
+- B.Eng. in Electrical Engineering, Nanjing University of Posts and Telecommunications, China, 2021
 
 Publications
 ======

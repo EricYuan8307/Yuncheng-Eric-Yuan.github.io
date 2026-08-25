@@ -23,12 +23,12 @@ repository               : "EricYuan8307/Yuncheng-Eric-Yuan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/myphoto.jpg" # Make sure images/myphoto.jpg exists in the repo
+  avatar           : "myphoto.jpg" # Make sure images/myphoto.jpg exists in the repo
   name             : "Yuncheng Yuan"
   pronouns         : # example: "she/her"  
   bio              : "MSCA TeraWireless PhD Researcher at University of Piraeus Research Center"
   location         : "Piraeus, Greece"
-  employer         : "University of Piraeus Research Center"
+  employer         : "University of Piraeus"
   uri              : # URL
   email            : "yunchengyuan@ieee.org"
 
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "yuncheng-eric-yuan"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
