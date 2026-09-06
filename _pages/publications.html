@@ -1,36 +1,6 @@
 ---
-layout: archive
-title: "Publications"
+layout: null
+title: Publications
 permalink: /publications/
-author_profile: true
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Publications | Yuncheng (Eric) Yuan</title><meta name="description" content="Yuncheng (Eric) Yuan — MSCA TeraWireless PhD Researcher at the University of Piraeus Research Center. Machine learning, wireless communications and error correcting codes."><link rel="stylesheet" href="../style.css"></head><body><a class="skip" href="#main">Skip to content</a><header><div class="wrap bar"><a class="brand" href="../">Yuncheng Yuan<span>.</span></a><nav aria-label="Main navigation"><a href="../">About</a><a href="../publications/" aria-current="page">Publications</a><a href="../cv/">CV</a></nav></div></header><div class="wrap layout"><aside class="profile" aria-label="Researcher profile"><img class="photo" src="{{ '/images/myphoto.jpg' | relative_url }}" alt="Yuncheng Yuan" width="204" height="235"><h2>Yuncheng Yuan</h2><p class="role">MSCA TeraWireless PhD Researcher</p><p>University of Piraeus<br>Research Center</p><p class="location">Piraeus, Greece</p><div class="social"><a href="mailto:yunchengyuan@ieee.org"><span>@</span>Email</a><a href="https://scholar.google.com/citations?user=nXK2hLIAAAAJ&amp;hl=en"><span>G</span>Google Scholar</a><a href="https://orcid.org/0009-0000-5270-8834"><span>iD</span>ORCID</a><a href="https://github.com/EricYuan8307"><span>⌘</span>GitHub</a><a href="https://www.linkedin.com/in/yuncheng-eric-yuan"><span>in</span>LinkedIn</a></div></aside><main id="main"><p class="eyebrow">Research output</p><h1>Publications</h1><p class="page-intro">Papers on machine learning and error correcting codes.<br>See also my <a href="https://scholar.google.com/citations?user=nXK2hLIAAAAJ&amp;hl=en">Google Scholar profile ↗</a>.</p><section><article class="paper"><div class="meta">2025 · Conference paper</div><h3><a href="https://doi.org/10.1109/IEEECONF62907.2025.10949122">On the Design and Performance of Machine Learning Based Error Correcting Decoders</a></h3><p class="authors"><strong>Y. Yuan</strong>, P. Scheepers, L. Tasiou, Y. C. Gültekin, F. Corradi and A. Alvarado</p><p class="venue">14th International ITG Conference on Systems, Communications and Coding (SCC), Karlsruhe, Germany, pp. 1–6.</p><div class="paper-links"><a href="https://doi.org/10.1109/IEEECONF62907.2025.10949122">Paper ↗</a></div></article><article class="paper"><div class="meta">2025 · arXiv preprint</div><h3><a href="https://arxiv.org/abs/2503.18758">On the Optimality of Single-label and Multi-label Neural Network Decoders</a></h3><p class="authors">Y. C. Gültekin, P. Scheepers, <strong>Y. Yuan</strong>, F. Corradi and A. Alvarado</p><p class="venue">arXiv:2503.18758</p><div class="paper-links"><a href="https://arxiv.org/abs/2503.18758">arXiv ↗</a></div></article></section></main></div><footer class="footer"><div class="wrap"><span>© 2026 Yuncheng (Eric) Yuan</span><a href="mailto:yunchengyuan@ieee.org">yunchengyuan@ieee.org</a></div></footer></body></html>
